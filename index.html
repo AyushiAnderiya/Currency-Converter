@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>api call</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- <h1>API Fetch</h1>
+    <h2><u><b><i>Cat Facts</i></b></u></h2>
+    <p id="fact"></p>
+    <button id="bt" >Fact</button> -->
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <form >
+            <div class="amount">
+                <label>Enter Amount:-</label> <BR>
+                <input type="text" name="num" id="num">
+            </div>
+            <br>
+           
+            <div class="dropdown">
+                <div class="from">
+                   <label>From:-</label> <br>  
+                    <div class="select_container">
+                    <img src="https://flagsapi.com/US/flat/64.png" alt="flag" class="imgg">     
+                        <select name="from">
+                        </select>
+                    </div>
+                </div>
+                <div class="to">
+                    <label>To:-</label>
+                    <div class="select_container">
+                     <img src="https://flagsapi.com/IN/flat/64.png" alt="flag" class="imgg">   
+                        <select name="to">
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <button id="submit">Submit</button>
+            <div class="result">
+                <label>Result:-</label> <BR>
+                <span id="valuee"></span>
+            </div>
+        </form>
+    </div>
+
+<script src="codes.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

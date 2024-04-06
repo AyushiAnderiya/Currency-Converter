@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(2, 21, 47);
+}
+
+.container {
+    background-color: rgb(199, 236, 223);
+    padding: 3rem;
+    border: 8px outset;
+    border-radius: 1rem;
+}
+
+form {
+    margin: 2rem 0 2rem 0;
+}
+
+form select,
+button,
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+form input{
+    border: 2px solid lightgrey;
+    min-height: 1.5rem;
+    padding-left: 0.5rem;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 01rem;
+}
+.select_container img {
+max-width: 2.3rem;
+}
+.select_container{
+    width: 6rem;
+    border: 2px solid lightgrey; 
+    border-radius: 0.5rem;
+}
+
+form button{
+    margin-top: 2vh;
+    min-height:1.7rem;
+    border: 3px outset rgb(144, 238, 238);
+    background-color: rgb(235, 252, 243);
+    font-family: "Cormorant", sans-serif;
+    font-weight: 900;
+    font-size:15px;
+}
+form button:hover{
+    border: 3px outset lightgreen;
+    background-color: rgb(199, 251, 186);
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.result{
+    margin: 1rem 0 1rem 0;
+    
+    min-height: 2rem;
+    /* //visibility: hidden; */
+}
+.result span{
+    background-color: aliceblue;
+    border: 2px outset ;
+    border-radius: 0.75rem;
+    min-width: 100%;
+    padding: 1px 210px 1px 15px;
+    
+}
